@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "ES5",
+            "ES6",
+            "ES2015",
+            "ES7",
+            "ES2016",
+            "ES2017",
+            "ES2018",
+            "ES2019",
+            "ES2020",
+            "ES2021",
+            "ESNext",
+        ],
+        "target": "ES2016",
+        "module": "ES6",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/": [
+                "./"
+            ],
+        },
+        "moduleResolution": "Node",
+        "jsx": "preserve",
+        "strictFunctionTypes": true,
+    },
+    "exclude": [
+        "node_modules"
+    ],
+}
